@@ -1,12 +1,28 @@
-# React + Vite
+# HOOKSHIELD WEBSITE
+This is a website landing page designed to represent the HookShield browser extension, which protects users from phishing and spam emails. This documentation provides a complete guide for the structure, functionality, and customization of the HookShield landing page built with React.js and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
+- React.js
+- Tailwind
+- Vite
+- Lucide-React
 
-Currently, two official plugins are available:
+## Use Template
+`Clone Repository`
+```bash
+git clone https://github.com/neinAlkem/hookshield-website.git 
+```
+`Run Project`
+```bash
+npm run dev
+```
+## Project Documentation
+`Hero Section`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![alt text](src/assets/heroPage.png)
 
-## Expanding the ESLint configuration
+`Feature Section`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![alt text](src/assets/feature.png)
+
+
