@@ -3,7 +3,7 @@ import { teamItems } from "../constant";
 
 const Team = () => {
   return (
-    <div className="mt-10" tracking-wide>
+    <div id="team" className="mt-10" tracking-wide>
         <h2 className="text-3xl sm:text-5xl lg:text-5xl text-center my-10 lg:my-20">People Behind HookShield
         </h2>
         <div className="flex flex-wrap justify-center">

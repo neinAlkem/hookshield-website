@@ -2,7 +2,7 @@ import { features } from "../constant"
 
 const Features = () => {
   return (
-    <div className="relative mt-20 border-neutral-800 min-h-8">
+    <div id="feature" className="relative mt-20 border-neutral-800 min-h-8">
         <div className="text-center">
             <span className=" text-md bg-neutral-900 text-blue-500 rounded-full h-6 lg:text-lg font-bold py-1 px-4 uppercase">
                 HookShield feature

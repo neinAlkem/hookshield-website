@@ -2,7 +2,7 @@ import { faq } from "../constant"
 
 const Faq = () => {
   return (
-    <div className="mt-10" tracking-wide>
+    <div id="faq" className="mt-10" tracking-wide>
         <h2 className="text-3xl sm:text-5xl lg:text-5xl text-center my-10 lg:my-20">Frequently Asked Question</h2>
         <div className="flex flex-wrap justify-center">
             {faq.map((faq, index) => (

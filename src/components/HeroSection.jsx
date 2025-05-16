@@ -3,7 +3,7 @@ import video1 from "../assets/video1.mp4"
 
 const HeroSection = () => {
   return (
-    <div className="grid md:grid-cols-2 items-center md:gap-4 gap-8 max-auto">
+    <div id="heroSection" className="grid md:grid-cols-2 items-center md:gap-4 gap-8 max-auto">
         <div className="flex flex-col items-start lg:mt-10">
             <h1 className="text-5xl lg:text-7xl text-left tracking-wide font-bold"> <span className="bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text">Protect {" "}</span>Your Email from 
                 <span className="bg-gradient-to-r from-blue-500 to-blue-800 text-transparent bg-clip-text"> {" "}Phishing Attacks</span> 
@@ -12,7 +12,7 @@ const HeroSection = () => {
             </p>
             <div className="flex justify-center my-10">
                 <a href="#" className="bg-gradient-to-r from-blue-500 to-blue-800 rounded-md px-4 py-2 font-bold mr-5">Try HookShield</a>
-                <a href="#" className="rounded-md border px-4 py-2">Documentation</a>
+                <a href="https://github.com/AlphaIsTrying/phishing-detection-capstone" className="rounded-md border px-4 py-2">Documentation</a>
             </div>
         </div>
         <div className="flex flex-col items-center">

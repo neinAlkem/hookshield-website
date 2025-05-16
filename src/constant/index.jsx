@@ -6,7 +6,7 @@ import irul from "../assets/team/irul.svg";
 import yasin from "../assets/team/yasin.svg";
 
 export const navItems = [
-    { label: "Features", href: "#" },
+    { label: "Features", href: "feature" },
     { label: "Team", href: "team" },
     { label: "FAQ", href: "faq" },
   ];
@@ -32,25 +32,25 @@ export const navItems = [
       name: "M RIZQI AL FARRIS",
       position: "QA Engineer",
       image: farris,
-      instagram: "",
-      linkedin: "",
-      github: "",
+      instagram: "http://instagram.com/mralfarris",
+      linkedin: "http://www.linkedin.com/in/mralfarris",
+      github: "https://github.com/AlphaIsTrying",
     },
     {
       name: "AHMAD JAWAHIRUL I.",
       position: "ML / BE Engineer",
       image: irul,
-      instagram: "",
-      linkedin: "",
-      github: "",
+      instagram: "http://instagram.com/irul_islamy",
+      linkedin: "https://www.linkedin.com/in/ahmad-jawahirul-islami",
+      github: "https://github.com/IrulIslami",
     },
     {
       name: "MUHAMMAD YASIN H.",
       position: "ML / BE Engineer",
       image: yasin,
-      instagram: "",
-      linkedin: "",
-      github: "",
+      instagram: "http://Instagram.com/yasinkhqm",
+      linkedin: "http://linkedin.com/in/yasinhakim",
+      github: "http://GitHub.com/Y716",
     },
   ];
 
@@ -71,7 +71,7 @@ export const navItems = [
       icon: <SquaresIntersectIcon />,
       text: "User-Friendly Interface",
       description:
-        "Hookshield provide an intuitive experience, making it easy for users to navigate and perform tasks without confusion",
+        "Hookshield provide an intuitive experience, making it easy for users to navigate and perform tasks without confusion.",
     },
     {
       icon: <ExternalLink />,

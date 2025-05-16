@@ -3,6 +3,7 @@ import { useState } from "react"
 import logo from "../assets/logo.svg"
 import { navItems } from "../constant"
 import { useRef } from "react"
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -11,12 +12,12 @@ const Navbar = () => {
         const toggleNavbar = () => {
             setMobileDrawerOpen(!mobileDrawerOpen)
         }
-        const scrollToSection = (id) => {
-            const element = document.getElementById(id);
-            if (element) {
-                element.scrollIntoView({ behavior:'smooth'});
-            }
-        };
+         const scrollToSection = (id) => {
+             const element = document.getElementById(id);
+             if (element) {
+                 element.scrollIntoView({ behavior:'smooth'});
+             }
+         };
         
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-lg border-b border-neutral-700/80">
@@ -29,13 +30,14 @@ const Navbar = () => {
                 <ul className="hidden lg:flex ml-14 space-x-12">
                     {navItems.map((item, index) => (
                      <li key={index}>
-                        <button onClick={() => scrollToSection(item.href)}>
+                        <button 
+                            onClick={() => scrollToSection(item.href)} className="hover:underline">
                             {item.label}
                         </button>
                     </li>
                     ))}
                     <li>
-                        <a href="#" className="py-2 px-4 text-md rounded-md bg-gradient-to-r from-blue-500 to-blue-800 hover:font-bold">
+                        <a href="https://github.com/AlphaIsTrying/phishing-detection-capstone" className="py-2 px-4 text-md rounded-md bg-gradient-to-r from-blue-500 to-blue-800 hover:font-bold">
                         GitHub </a>
                     </li>
                 </ul>
@@ -50,7 +52,10 @@ const Navbar = () => {
                     <ul>
                         {navItems.map((item, index) => (
                             <li key={index} className="py-4 ">
-                                <a href={item.href}>{item.label}</a>
+                                 <button 
+                            onClick={() => scrollToSection(item.href)} className="hover:underline">
+                            {item.label}
+                        </button>
                             </li>
                         ))}
                     </ul>
