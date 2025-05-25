@@ -2,7 +2,7 @@ import { ExternalLink, MessageSquareOffIcon, SquaresIntersectIcon, TimerResetIco
 import bagas from "../assets/team/baghas.jpg";
 import byan from "../assets/team/byan.svg";
 import farris from "../assets/team/farris.svg";
-import irul from "../assets/team/irul.svg";
+import irul from "../assets/team/irul.jpg";
 import yasin from "../assets/team/yasin.svg";
 
 export const navItems = [
